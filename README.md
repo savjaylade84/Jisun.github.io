@@ -70,9 +70,13 @@ NFT Art - <a style="letter-spacing:1px;font-weight:700;font-family:'segoe ui';co
 </br>
 
 <a style="letter-spacing:1px;font-weight:700;font-family:'segoe ui';color:rgb(100,100,200);padding: 0px;margin:0px;" href="https://www.facebook.com/jayson.deleon.393" style="margin:0px 0px"><image alt="facebook-logo" src="./images/facebook.png" style="padding:0px 10px 0px 0px " width=22 height=22></a>
+&nbsp;&nbsp;
 <a style="letter-spacing:1px;font-weight:700;font-family:'segoe ui';color:rgb(100,100,200);padding: 0px;margin:0px;" href="https://www.instagram.com/savjaylade84" style="margin:0px 10px"><image alt="instagram-logo" src="./images/Instagram.png" style="padding:0px 10px " width=22 height=22></a>
+&nbsp;&nbsp;
 <a style="letter-spacing:1px;font-weight:700;font-family:'segoe ui';color:rgb(100,100,200);padding: 0px;margin:0px;" href="https://www.twitter.com/johnjaysonbdel1/" style="margin:0px 10px"><image alt="twitter-logo" src="./images/Twitter.png" style="padding:0px 10px " width=22 height=22></a>
+&nbsp;&nbsp;
 <a style="letter-spacing:1px;font-weight:700;font-family:'segoe ui';color:rgb(100,100,200);padding: 0px;margin:0px;" href="https://www.linkedin.com/mwlite/in/john-jayson-de-leon-731033818b/" style="margin:0px 10px"><image alt="linkedin-logo" src="./images/LinkedIn.png" style="padding:0px 10px " width=22 height=22></a>
+&nbsp;&nbsp;
 <a style="letter-spacing:1px;font-weight:700;font-family:'segoe ui';color:rgb(100,100,200);padding: 0px;margin:0px;" href="https://www.github.com/savjaylade84/" style="margin:0px 10px"><image alt="github-logo" src="./images/github.png" style="padding:0px 10px" width=22 height=22></a>
 
 </br>
