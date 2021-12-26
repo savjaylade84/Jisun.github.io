@@ -1,0 +1,255 @@
+/*
+
+	navigator css
+
+*/
+
+nav{
+
+	width:inherit;
+	height:10%;
+	opacity:90%;
+    position: fixed;
+    z-index:5;
+    overflow: hidden !important;
+    
+    .nav-mobile{
+        height:5%;
+    }
+
+}
+
+
+$accent-color-gold:rgba(247, 191, 6, 0.9);
+$accent-color-purple: rgba(60, 12, 82, 0.9);
+$primary-color-white:whitesmoke;
+$primary-color-black: rgba(20, 20, 22,0.8);
+
+
+.nav-button li,.nav-button-menu li{
+    padding-bottom:7%;
+}
+
+.nav-button,.mobile-logo-text{
+    list-style:none;
+    list-style-type:none;
+    cursor: pointer;
+    font-weight: 550;
+    color:$primary-color-white;
+}
+
+.nav-button li:active,.nav-button-menu li:active{
+    text-decoration: underline 10px $primary-color-white;
+}
+
+.nav-desktop{
+    .nav-button:hover{
+        .nav-icon{
+            background-color:$accent-color-gold;
+            border-radius:20px;
+            animation: background-color forwards 2s;
+        }
+    }
+}
+
+.current{
+    background-color:$accent-color-gold;
+    border-radius:20px;
+    animation: background-color forwards 2s;
+    animation: box-shadow forwards 2s;
+}
+
+
+@media screen and (min-width:200px) and (max-width:767px){
+
+
+	nav{
+		height:60%;
+        top:0;
+        
+        .nav-desktop{display:none;}
+
+        .nav-mobile{
+            height:auto;
+            min-height:15%;
+            max-height:100%;
+            background-color: rgb(20, 19, 18);
+            
+            .nav-wrapper{
+
+                display: flex;
+                justify-content: space-between;
+                padding:0px 10px;
+                    
+                    .mobile-logo{
+                        float: left;
+                        padding:3%;
+                        width:50px;
+                        height:50px;
+                    }
+            
+            
+                    .menu-wrapper{
+                        display:flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-content: center;
+                        align-self: center;
+                        padding:1em;
+
+                        .nav-button-menu{
+                            display:none;
+                            flex-direction: column;
+                            justify-content: center;
+                            align-self: center; 
+                            .nav-button{
+                                display: flex;
+                                align-self: center;
+                                margin:1em auto;
+                                letter-spacing:10px;
+                                font-weight: 500;
+                                font-size:1rem;	
+                                text-align: center;
+                            }
+                        }
+                
+                        .show-hide{
+                            display: flex;
+                            align-self: center;
+                            top:0;
+                            border:-0px;
+                            cursor: pointer;
+                            text-align:right;
+                            z-index:1;
+                        }
+                    
+                        .show-hide-text{
+                            color: rgba(200, 200, 200, 0.9);
+                            font-size:0.9rem;
+                            font-weight:700;
+                            padding:4%;
+                            text-align: center;
+                        }
+                    
+                        .button-open-close{
+                            align-self: center;
+                            border:2px solid rgba(200, 200, 200, 0.9) !important;
+                            padding:10px 30px 10px 30px!important;
+                            border-radius:5% !important;
+                        }
+                    }
+            }
+    
+        }
+
+    }
+
+    .button-open-close:active{
+        background-color:rgba(200, 200, 200, 0.9);
+        color: rgba(15, 15, 15, 0.842);
+    }
+    
+    .nav-mobile .nav-button-menu{
+        text-align: center;
+        letter-spacing:5px;
+    }
+
+	/*for very small device*/
+	@media screen and (min-width:640px ) and (min-height:360px){
+		.nav-mobile{
+			height:auto;
+			max-height:200%;
+			min-height:15%;
+		}
+
+	}
+
+
+}
+
+
+
+/*tablet view*/
+@media screen and (min-width:768px) and (min-height:360px){
+
+	nav{
+		width:100px;
+		height:100%;
+		display:flex;
+        justify-content:center;
+        
+        .nav-mobile{display:none;}
+
+        .nav-desktop{
+            padding:5%;
+            width:100%;
+            background-color:rgb(20, 19, 19);
+
+
+            .desktop-logo{
+                padding:10%;
+                margin:5% 5% 5% 5%;
+            }
+
+            .nav-button-menu{
+                text-align:center;
+                .nav-button{
+                    .link-text{
+                        p{
+                            padding:3px;
+                            font-size:0.9rem;
+                        }
+                        .nav-icon{
+                            width:24px;
+                            height:24px;
+                            padding:20%;
+                            margin:5%;
+                            object-fit:fill;
+                        }
+                    }
+                }
+            }
+            
+        }
+
+	}
+
+    @media screen and (max-width: 1400px) and (max-height:1400px){
+        .nav-desktop{
+            .nav-button-menu{
+             .nav-button{
+                     .link-text{
+                         p{
+                            display:none;
+                         }
+                     }
+                 }
+             }
+ 
+         }
+    }
+
+	/*desktop view*/
+
+	@media screen and (min-width:1025px) and (min-height:879px){
+
+        .nav-desktop{
+           .nav-button-menu{
+            .nav-button{
+                    .link-text{
+                        .nav-icon{
+                            margin:0 auto;
+                        }
+                        p{
+                            margin:1%;
+                        }
+                    }
+                }
+            }
+
+        }
+		
+	}
+
+}
+

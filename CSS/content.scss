@@ -1,0 +1,168 @@
+/*
+    content css
+*/
+$accent-color-gold:rgba(247, 191, 6, 0.9);
+$accent-color-purple: rgba(60, 12, 82, 0.9);
+$primary-color-white:whitesmoke;
+$primary-color-black: rgba(20, 20, 22,0.8);
+
+/*main body*/
+.content{
+    display:flexbox;
+    position:absolute;
+    justify-content:center;
+	width:100%;
+    height:100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color:transparent !important;
+
+    .About{
+
+        background-color:transparent;
+        height:max-content;
+        position:relative;
+        z-index:1;
+    }
+    
+    .Project{
+        
+        background-color:transparent;
+        z-index:2;
+        position:relative;
+    }
+    
+    .Contact{
+        z-index:3;
+        position:relative;
+    }
+
+    footer{
+        z-index:4;
+        position: relative;
+    }
+
+}
+
+/*content first children*/
+.Home,.Project,.Contact,.About,.footer{
+	width:auto !important;
+}
+
+ .overview {
+    margin-top:3em;
+}
+
+.overview{
+    display: grid;
+    grid-template-columns:3fr;
+    grid-template-rows:2fr 1.5fr;
+    width:65%;
+}
+
+/*intro about me*/
+.context_txt{
+    font-weight:60px;
+    text-align:justify;
+    font-size:calc((calc(1vh + 1rem) + (1vw + 1rem))/2);
+    letter-spacing:3px;
+    text-overflow: ellipsis;
+    padding:0px 10px 0px 10px;
+    margin:0 auto;
+}
+
+
+.Intro{
+    width: 100%;
+    height:100%;
+}
+
+@media screen and (max-height:480px){
+    .Intro{
+        margin:5rem 0;
+    }
+}
+
+
+.intro_context{
+    width: 100%;
+    height:100%;
+}
+
+/*tech thaT i use*/
+.tech_list{
+    margin:10px !important;
+    display: flex !important; 
+    flex-flow: wrap !important;
+    justify-content: center !important;
+    margin:10px auto !important;
+    width:50%;
+}
+
+.tech{
+    text-align: center;
+    margin:5px 2px 3px 2px;
+    flex-basis:calc(50px - 100%);
+    flex-grow: 1;
+
+    
+    *{
+        image-rendering: crisp-edges;
+    }
+
+    
+    img{
+        width:50%;
+        height:50%;
+    }
+
+    p{
+        font-weight:500;
+        font-size:calc(((0.6vh + 14px) + (0.6vw + 14px)) / 2);
+    }
+
+}
+
+
+
+/* mobile view */
+@media screen and (max-width:767px){
+    .personal_info{
+        display:flex;
+    }
+    
+    .Home,.Project,.Contact{
+        padding:20px 0% 2% 0%;
+    }
+
+    .About{
+        padding:50px 0% 2% 0%;
+    }
+
+    .personal_info{
+        display:flex;
+    }
+
+} 
+
+/* tablet view */
+@media screen and (min-width:768px){
+    
+    .Home,.Project,.Contact{
+        padding:2% 0% 2% 30px;
+    }
+
+    .About{
+        padding:20px 0% 2% 50px;
+    }
+
+    .context_txt{
+        width:100%;
+    }
+    @media screen and (min-width:1264px){
+        .context_txt{
+            width:60%;
+        }
+        
+    }
+
+}

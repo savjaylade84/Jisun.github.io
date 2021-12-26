@@ -1,0 +1,57 @@
+.contact-social-media {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  -ms-flex-preferred-size: content;
+      flex-basis: content;
+  padding: 1em 0em;
+  margin: 0.5em 0em;
+}
+
+.contact-social-media a:first-child {
+  margin-left: 0;
+}
+
+.contact-social-media a img {
+  width: 2em;
+  height: 2em;
+}
+
+footer {
+  background-color: #272727;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 0.3rem;
+}
+
+footer p {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: small;
+}
+
+footer p a {
+  cursor: pointer;
+  margin: 0 0.3rem;
+  color: #d4a50c;
+}
+/*# sourceMappingURL=footer.css.map */

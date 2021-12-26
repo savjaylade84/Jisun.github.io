@@ -1,0 +1,46 @@
+$accent-color-gold:rgba(247, 191, 6, 0.9);
+$accent-color-purple: rgba(60, 12, 82, 0.9);
+$primary-color-white:whitesmoke;
+$primary-color-black: rgba(20, 20, 22,0.8);
+
+.radius::before{
+    content: "";
+    border-radius:100%; 
+    background-color: $primary-color-white;
+    margin:4%; 
+    padding:0em 0.5em 0em 0.5em;
+    width:20px;
+    height:10px;
+}
+
+@media screen and (max-width:768px){
+
+    .clip-path-footer{
+        clip-path: circle(75% at 50%  -20%);
+    }
+
+    @media screen and (max-width:400px){
+        .clip-path-footer{
+            clip-path: circle(90% at 50%  0%);
+        }
+    }
+    @media screen and (max-width:600px){
+        .clip-path-footer{
+            clip-path: circle(90% at 50%  -10%);
+        }
+    }
+}
+
+@media screen and (min-width:769px){
+
+    .clip-path-footer{
+        clip-path: circle(90% at 50%  -36%);
+    }
+
+    @media screen and (min-width:1440px){
+        .clip-path-footer{
+            clip-path: circle(80% at 50%  -33%);
+        }
+    }
+}
+ 

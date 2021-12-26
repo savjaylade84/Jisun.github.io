@@ -1,0 +1,42 @@
+$primary-color-blackish:#1F1D24;
+
+.Project{
+    height: fit-content;
+    padding: 5rem;
+}
+
+.project-bottom:last-child{
+    border-radius:30px 30px 60%  60%;
+    padding-bottom:2rem;
+}
+
+.project-bottom{
+    display: flex;
+    justify-content: center;
+    span{
+        a{
+            width:80%;
+        }
+    }
+}
+
+.project-detail{
+    margin:1rem 0;
+}
+
+.inner-card > .text-small{
+    margin: 1rem 0;
+}
+
+.card > span > a > span > .icon{
+    margin:0rem 0.6rem;
+}
+
+.Project > div > .card > .inner-card > .img > img{
+    margin:1rem auto;
+    border-radius: 20px;
+}
+
+.Project > div > .card > .inner-card > span > a{
+    margin:1rem auto;
+}

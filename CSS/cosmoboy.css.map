@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAEA,iBAAiB;AACjB,MAAM,CAAC,MAAM,MAAM,SAAS,EAAE,KAAK;EAE/B,AAAA,WAAW,CAAA;IACP,UAAU,EAAC,IAAI;GAClB",
+    "sources": [
+        "cosmoboy.scss"
+    ],
+    "names": [],
+    "file": "cosmoboy.css"
+}

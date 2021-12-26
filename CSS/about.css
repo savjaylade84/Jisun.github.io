@@ -1,0 +1,86 @@
+/*
+    logo for why hire me
+*/
+.tech_contain {
+  padding: 5em 0;
+}
+
+.tech_contain .overview span .cosmoboy {
+  margin: 0 auto;
+}
+
+.tech_contain .overview-list {
+  display: -ms-grid;
+  display: grid;
+  width: 65%;
+  margin: 0 auto;
+  -ms-grid-columns: 60% 60%;
+      grid-template-columns: 60% 60%;
+}
+
+.tech_contain .overview-list .cosmoboy-icon {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto;
+      grid-template-columns: auto;
+  -ms-grid-rows: .5fr .5fr;
+      grid-template-rows: .5fr .5fr;
+  place-content: center;
+  padding: 5em;
+}
+
+.tech_contain .overview-list .cosmoboy-icon img {
+  margin: 0 auto;
+  width: 10em;
+  height: 10em;
+}
+
+/* mobile view */
+@media screen and (max-width: 767px) {
+  .About {
+    padding-left: 0;
+  }
+  .About .cosmoboy {
+    width: 80%;
+    height: 80%;
+  }
+  .About .overview-list {
+    margin: 0;
+    width: 100%;
+    -ms-grid-columns: 4fr;
+        grid-template-columns: 4fr;
+  }
+}
+
+@media screen and (max-width: 767px) and (max-width: 400px) {
+  .overview-list {
+    -ms-grid-columns: 4fr;
+        grid-template-columns: 4fr;
+  }
+  .overview-list .cosmoboy {
+    width: 90%;
+    height: 90%;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .overview-list {
+    width: 90%;
+  }
+}
+
+/* tablet view */
+@media screen and (min-width: 768px) {
+  .cosmoboy {
+    width: 60%;
+    height: 60%;
+  }
+}
+
+@media screen and (min-width: 768px) and (min-width: 1240px) {
+  .cosmoboy {
+    width: 40%;
+    height: 40%;
+  }
+}
+/*# sourceMappingURL=about.css.map */

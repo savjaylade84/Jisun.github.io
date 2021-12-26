@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: /images/
+Disallow: /CSS/
+Disallow: /Javascript/
+Disallow: /Resume-CV/
+

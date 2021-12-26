@@ -1,0 +1,65 @@
+
+$primary-color-black: rgba(20, 20, 22,0.8);
+$primary-color-black-pure: rgba(20, 20, 22,1);
+$primary-color-white:rgba(200, 200, 200, 0.9);
+$primary-color-dark-purple: rgba(38, 9, 51, 0.9);
+$primary-color-blackish:#1F1D24;
+.Home{  
+    display: flow-root;
+    height:fit-content;
+    width:100%;
+    z-index:0;
+    color:$primary-color-white;
+    background-color:$primary-color-dark-purple;
+
+    /*introduction of the site*/
+    .profile{
+        display: grid;
+        margin:10% auto;
+        place-items:center;
+        grid-template-columns: 1fr;
+    }
+
+
+}
+
+
+
+/* mobile view */
+@media screen and (max-width:767px){
+    .Home{
+        padding-top:20%;
+    } 
+
+            
+    .clip-background{
+        clip-path: circle(55% at 50% 32%);
+    }
+
+
+    @media screen and (max-width:450px){
+        .clip-background{
+            clip-path: circle(75% at 50% 35%);
+        }
+    }
+
+
+} 
+
+
+
+@media screen and (min-width:768px){
+
+        
+    .clip-background{
+        clip-path: circle(140vh at 50% -40%);
+    }
+
+    @media screen and (max-width:1024px){
+        .clip-background{
+            clip-path: circle(70% at 50% 32%);
+        }
+    }
+
+}
+

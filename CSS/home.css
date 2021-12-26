@@ -1,0 +1,53 @@
+.Home {
+  display: flow-root;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  width: 100%;
+  z-index: 0;
+  color: rgba(200, 200, 200, 0.9);
+  background-color: rgba(38, 9, 51, 0.9);
+  /*introduction of the site*/
+}
+
+.Home .profile {
+  display: -ms-grid;
+  display: grid;
+  margin: 10% auto;
+  place-items: center;
+  -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+}
+
+/* mobile view */
+@media screen and (max-width: 767px) {
+  .Home {
+    padding-top: 20%;
+  }
+  .clip-background {
+    -webkit-clip-path: circle(55% at 50% 32%);
+            clip-path: circle(55% at 50% 32%);
+  }
+}
+
+@media screen and (max-width: 767px) and (max-width: 450px) {
+  .clip-background {
+    -webkit-clip-path: circle(75% at 50% 35%);
+            clip-path: circle(75% at 50% 35%);
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .clip-background {
+    -webkit-clip-path: circle(140vh at 50% -40%);
+            clip-path: circle(140vh at 50% -40%);
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .clip-background {
+    -webkit-clip-path: circle(70% at 50% 32%);
+            clip-path: circle(70% at 50% 32%);
+  }
+}
+/*# sourceMappingURL=home.css.map */

@@ -1,0 +1,46 @@
+.Project {
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  padding: 5rem;
+}
+
+.project-bottom:last-child {
+  border-radius: 30px 30px 60%  60%;
+  padding-bottom: 2rem;
+}
+
+.project-bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.project-bottom span a {
+  width: 80%;
+}
+
+.project-detail {
+  margin: 1rem 0;
+}
+
+.inner-card > .text-small {
+  margin: 1rem 0;
+}
+
+.card > span > a > span > .icon {
+  margin: 0rem 0.6rem;
+}
+
+.Project > div > .card > .inner-card > .img > img {
+  margin: 1rem auto;
+  border-radius: 20px;
+}
+
+.Project > div > .card > .inner-card > span > a {
+  margin: 1rem auto;
+}
+/*# sourceMappingURL=project.css.map */
