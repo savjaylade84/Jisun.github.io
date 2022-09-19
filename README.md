@@ -32,7 +32,7 @@ NFT Art - <a style="letter-spacing:1px;font-weight:700;font-family:'segoe ui';co
 </br>
 </br>
 
-<p style="font-size:1.15em;color:rgba(200,200,200,1);padding: 0px;margin:0px;">Photo Editing / icon-logo editing Software</p>
+<p style="font-size:1.15em;color:rgba(200,200,200,1);padding: 0px;margin:0px;">Photo Editing / Icon-Logo Editing Software</p>
 <p style="font-size:1.1em;color:rgba(170,170,170,1);padding: 0px;margin:0px;">Adobe Photoshop - Adobe Illustrator</p>
 
 </br>
