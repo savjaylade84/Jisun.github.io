@@ -22,7 +22,7 @@ Portfolio - <a style="letter-spacing:1px;font-weight:700;font-family:'segoe ui';
 <a href='https://hackerrank.com/savjaylade84'>
 	<img src='https://img.shields.io/badge/-Hackerrank-000?&logo=Hackerrank' height=30>
 </a>
-<a href='https://www.facebook.com/jayson.deleon.393'>
+<a href='https://facebook.com/Jisun-102294825339373'>
 	<img src='https://img.shields.io/badge/-Facebook_Page-000?&logo=Facebook' height=30>
 </a>
 <a href='https://opensea.io/savjaylade/'>
