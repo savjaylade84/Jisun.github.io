@@ -4,3 +4,5 @@ Disallow: /CSS/
 Disallow: /Javascript/
 Disallow: /Resume-CV/
 
+Sitemap: https://savjaylade84.github.io/Jisun.github.io/sitemap.xml
+
