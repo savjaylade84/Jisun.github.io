@@ -2,7 +2,7 @@
 
 <div align="center">
   <h2 style="padding: 0px;margin:0px;"> 
-Portfolio - <a style="letter-spacing:1px;font-weight:700;font-family:'segoe ui';color:rgb(100,100,200);padding: 0px;margin:0px;" href="https://savjaylade84.github.io/Jisun.github.io/"><image alt="jisun-logo" src="./images/jisun.svg" style="padding:0px 7px;" width=20 height=25> Jisun</a></h2>
+Portfolio - <a style="letter-spacing:1px;font-weight:700;font-family:'segoe ui';color:rgb(100,100,200);padding: 0px;margin:0px;" href="https://savjaylade84.github.io/Jisun.github.io/"><image alt="jisun-logo" src="./images/jisun.svg" style="padding:0px 7px;" width=25 height=25> Jisun</a></h2>
 </br>
 </div>
 <div align="center">
