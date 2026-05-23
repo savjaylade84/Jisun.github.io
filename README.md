@@ -1,6 +1,6 @@
 <div align="center">
 
-<br>
+</br>
 
 <a href="https://savjaylade84.github.io/Jisun.github.io/">
   <img alt="Jisun Logo" src="./images/jisun.svg" width="120" height="120">
