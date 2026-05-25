@@ -8,7 +8,6 @@
 
 # Jisun
 
-_Portfolio of John Jayson B. De Leon_
 
 [![Visit Portfolio](https://img.shields.io/badge/Visit_Portfolio-Jisun-6464C8?style=for-the-badge&logoColor=white)](https://savjaylade84.github.io/Jisun.github.io/)
 
