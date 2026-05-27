@@ -43,7 +43,7 @@
 ![Git](https://img.shields.io/badge/-Git-000?style=for-the-badge&logo=Git&logoColor=white)
 ![Github](https://img.shields.io/badge/-Github-000?style=for-the-badge&logo=Github&logoColor=white)
 
-### Design
+### Design Tool
 
 ![Invision](https://img.shields.io/badge/-Invision-000?style=for-the-badge&logo=Invision&logoColor=white)
 ![Adobe Illustrator](https://img.shields.io/badge/-Adobe_Illustrator-000?style=for-the-badge&logo=AdobeIllustrator&logoColor=white)
