@@ -15,7 +15,7 @@
 
 ---
 
-## 🔗 Connect
+## 🔗 Connection
 
 [![LinkedIn](https://img.shields.io/badge/-Linkedin-000?style=for-the-badge&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/john-jayson-de-leon-73532818b)
 [![Facebook](https://img.shields.io/badge/-Facebook-000?style=for-the-badge&logo=Facebook&logoColor=white)](https://www.facebook.com/jayson.deleon.393)
