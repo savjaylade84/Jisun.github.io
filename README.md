@@ -51,7 +51,7 @@
 
 ---
 
-## 👤 Author Information 
+## 👤 Author Information & Profile
 
 | | |
 |---|---|
