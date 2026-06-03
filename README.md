@@ -30,7 +30,7 @@
 
 ## 🛠️ Tech Stack
 
-### Languages
+### Programming Languages
 
 ![JavaScript](https://img.shields.io/badge/-JavaScript-000?style=for-the-badge&logo=JavaScript&logoColor=white)
 ![Sass](https://img.shields.io/badge/-Sass-000?style=for-the-badge&logo=Sass&logoColor=white)
