@@ -51,7 +51,7 @@
 
 ---
 
-## 👤 Author Contact Information
+## 👤 Contact Information
 
 | | |
 |---|---|
